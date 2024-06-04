@@ -1,0 +1,132 @@
+2024-06-03 15:11:34,884 - test_logger - WARNING - Add user failed: Invalid email test@example.com
+2024-06-03 15:11:34,885 - test_logger - WARNING - Unauthorized access attempt to add user
+2024-06-03 15:11:36,043 - test_logger - WARNING - Unauthorized access attempt to add user
+2024-06-03 15:11:37,400 - test_logger - INFO - Admin dashboard accessed by: Admin
+2024-06-03 15:11:39,090 - test_logger - WARNING - Unauthorized access attempt to admin dashboard
+2024-06-03 15:11:39,927 - test_logger - WARNING - Unauthorized access attempt to admin dashboard
+2024-06-03 15:11:40,887 - test_logger - INFO - Admin profile accessed by: admin@nucleusteq.com
+2024-06-03 15:11:41,742 - test_logger - WARNING - Admin user not found: <built-in function id>
+2024-06-03 15:11:42,625 - test_logger - WARNING - Admin user not found: <built-in function id>
+2024-06-03 15:11:43,451 - test_logger - INFO - All users accessed by admin
+2024-06-03 15:11:44,354 - test_logger - WARNING - Unauthorized access attempt to all users
+2024-06-03 15:11:45,253 - test_logger - WARNING - Assign item failed: User 1 already has item Test Item
+2024-06-03 15:11:46,113 - test_logger - INFO - Item deleted successfully: Test Item
+2024-06-03 15:11:46,967 - test_logger - INFO - All items accessed
+2024-06-03 15:11:47,866 - test_logger - INFO - All items accessed
+2024-06-03 15:11:48,748 - test_logger - INFO - Employee dashboard accessed by user: Test
+2024-06-03 15:11:49,656 - test_logger - WARNING - Unauthorized access attempt to employee dashboard
+2024-06-03 15:11:50,492 - test_logger - INFO - All items accessed
+2024-06-03 15:11:51,384 - test_logger - INFO - Home page accessed
+2024-06-03 15:11:52,211 - test_logger - INFO - All items accessed
+2024-06-03 15:11:53,366 - test_logger - INFO - Admin logged in: admin@nucleusteq.com
+2024-06-03 15:11:54,567 - test_logger - INFO - Employee logged in: test@nucleusteq.com
+2024-06-03 15:11:55,443 - test_logger - WARNING - Login failed: Invalid email or password for email john@example.com
+2024-06-03 15:11:56,275 - test_logger - WARNING - Login failed: Email and password are required
+2024-06-03 15:11:56,279 - test_logger - WARNING - Login failed: Invalid email or password for email 
+2024-06-03 15:11:57,392 - test_logger - INFO - Employee logged in: test@nucleusteq.com
+2024-06-03 15:11:58,155 - test_logger - INFO - Profile accessed by user: test@nucleusteq.com
+2024-06-03 15:11:58,993 - test_logger - WARNING - Unauthorized access attempt to profile
+2024-06-03 15:11:59,681 - test_logger - WARNING - User not found: 999
+2024-06-03 15:12:00,513 - test_logger - WARNING - Registration failed: Email already exists
+2024-06-03 15:12:01,138 - test_logger - WARNING - Registration failed: Invalid email address
+2024-06-03 15:12:01,761 - test_logger - WARNING - Registration failed: All fields are required
+2024-06-03 15:12:02,385 - test_logger - WARNING - Password must be at least 6 characters long: Password must be at least 6 characters long
+2024-06-03 15:12:03,258 - test_logger - INFO - User registered successfully: newuser@nucleusteq.com
+2024-06-03 15:12:03,897 - test_logger - INFO - All items accessed
+2024-06-03 15:12:04,538 - test_logger - INFO - Item added successfully: Laptop
+2024-06-03 15:12:04,545 - test_logger - INFO - All items accessed
+2024-06-03 15:12:05,180 - test_logger - INFO - Item unassigned successfully: 1
+2024-06-03 15:12:05,186 - test_logger - INFO - All items accessed
+2024-06-03 15:12:06,256 - test_logger - INFO - User added successfully: john@nucleusteq.com
+2024-06-03 15:12:06,265 - test_logger - INFO - All users accessed by admin
+2024-06-03 15:12:07,177 - test_logger - INFO - User deleted successfully: test3@nucleusteq.com
+2024-06-03 15:12:07,823 - test_logger - WARNING - Unauthorized access attempt to add item
+2024-06-03 15:12:08,425 - test_logger - WARNING - Unauthorized access attempt to all items
+2024-06-03 15:13:03,203 - test_logger - WARNING - Add user failed: Invalid email test@example.com
+2024-06-03 15:13:03,204 - test_logger - WARNING - Unauthorized access attempt to add user
+2024-06-03 15:13:04,045 - test_logger - WARNING - Unauthorized access attempt to add user
+2024-06-03 15:13:04,883 - test_logger - INFO - Admin dashboard accessed by: Admin
+2024-06-03 15:13:05,731 - test_logger - WARNING - Unauthorized access attempt to admin dashboard
+2024-06-03 15:13:06,538 - test_logger - WARNING - Unauthorized access attempt to admin dashboard
+2024-06-03 15:13:07,354 - test_logger - INFO - Admin profile accessed by: admin@nucleusteq.com
+2024-06-03 15:13:08,185 - test_logger - WARNING - Admin user not found: <built-in function id>
+2024-06-03 15:13:09,011 - test_logger - WARNING - Admin user not found: <built-in function id>
+2024-06-03 15:13:09,825 - test_logger - INFO - All users accessed by admin
+2024-06-03 15:13:10,680 - test_logger - WARNING - Unauthorized access attempt to all users
+2024-06-03 15:13:11,542 - test_logger - WARNING - Assign item failed: User 1 already has item Test Item
+2024-06-03 15:13:12,388 - test_logger - INFO - Item deleted successfully: Test Item
+2024-06-03 15:13:13,217 - test_logger - INFO - All items accessed
+2024-06-03 15:13:14,084 - test_logger - INFO - All items accessed
+2024-06-03 15:13:14,956 - test_logger - INFO - Employee dashboard accessed by user: Test
+2024-06-03 15:13:15,710 - test_logger - WARNING - Unauthorized access attempt to employee dashboard
+2024-06-03 15:13:16,423 - test_logger - INFO - All items accessed
+2024-06-03 15:13:17,094 - test_logger - INFO - Home page accessed
+2024-06-03 15:13:17,779 - test_logger - INFO - All items accessed
+2024-06-03 15:13:18,624 - test_logger - INFO - Admin logged in: admin@nucleusteq.com
+2024-06-03 15:13:19,483 - test_logger - INFO - Employee logged in: test@nucleusteq.com
+2024-06-03 15:13:20,077 - test_logger - WARNING - Login failed: Invalid email or password for email john@example.com
+2024-06-03 15:13:20,688 - test_logger - WARNING - Login failed: Email and password are required
+2024-06-03 15:13:20,690 - test_logger - WARNING - Login failed: Invalid email or password for email 
+2024-06-03 15:13:21,549 - test_logger - INFO - Employee logged in: test@nucleusteq.com
+2024-06-03 15:13:22,200 - test_logger - INFO - Profile accessed by user: test@nucleusteq.com
+2024-06-03 15:13:22,887 - test_logger - WARNING - Unauthorized access attempt to profile
+2024-06-03 15:13:23,617 - test_logger - WARNING - User not found: 999
+2024-06-03 15:13:24,715 - test_logger - WARNING - Registration failed: Email already exists
+2024-06-03 15:13:25,450 - test_logger - WARNING - Registration failed: Invalid email address
+2024-06-03 15:13:26,207 - test_logger - WARNING - Registration failed: All fields are required
+2024-06-03 15:13:26,891 - test_logger - WARNING - Password must be at least 6 characters long: Password must be at least 6 characters long
+2024-06-03 15:13:27,710 - test_logger - INFO - User registered successfully: newuser@nucleusteq.com
+2024-06-03 15:13:28,312 - test_logger - INFO - All items accessed
+2024-06-03 15:13:28,960 - test_logger - INFO - Item added successfully: Laptop
+2024-06-03 15:13:28,966 - test_logger - INFO - All items accessed
+2024-06-03 15:13:29,590 - test_logger - INFO - Item unassigned successfully: 1
+2024-06-03 15:13:29,595 - test_logger - INFO - All items accessed
+2024-06-03 15:13:30,745 - test_logger - INFO - User added successfully: john@nucleusteq.com
+2024-06-03 15:13:30,754 - test_logger - INFO - All users accessed by admin
+2024-06-03 15:13:31,660 - test_logger - INFO - User deleted successfully: test3@nucleusteq.com
+2024-06-03 15:13:32,271 - test_logger - WARNING - Unauthorized access attempt to add item
+2024-06-03 15:13:32,946 - test_logger - WARNING - Unauthorized access attempt to all items
+2024-06-04 18:15:13,001 - test_logger - WARNING - Add user failed: Invalid email test@example.com
+2024-06-04 18:15:13,002 - test_logger - WARNING - Unauthorized access attempt to add user
+2024-06-04 18:15:13,694 - test_logger - WARNING - Unauthorized access attempt to add user
+2024-06-04 18:15:14,351 - test_logger - INFO - Admin dashboard accessed by: Admin
+2024-06-04 18:15:15,019 - test_logger - WARNING - Unauthorized access attempt to admin dashboard
+2024-06-04 18:15:15,661 - test_logger - WARNING - Unauthorized access attempt to admin dashboard
+2024-06-04 18:15:16,303 - test_logger - INFO - Admin profile accessed by: admin@nucleusteq.com
+2024-06-04 18:15:16,968 - test_logger - WARNING - Admin user not found: <built-in function id>
+2024-06-04 18:15:17,603 - test_logger - WARNING - Admin user not found: <built-in function id>
+2024-06-04 18:15:18,277 - test_logger - INFO - All users accessed by admin
+2024-06-04 18:15:19,058 - test_logger - WARNING - Unauthorized access attempt to all users
+2024-06-04 18:15:19,861 - test_logger - WARNING - Assign item failed: User 1 already has item Test Item
+2024-06-04 18:15:20,486 - test_logger - INFO - Item deleted successfully: Test Item
+2024-06-04 18:15:21,074 - test_logger - INFO - All items accessed
+2024-06-04 18:15:21,675 - test_logger - INFO - All items accessed
+2024-06-04 18:15:22,279 - test_logger - INFO - Employee dashboard accessed by user: Test
+2024-06-04 18:15:22,872 - test_logger - WARNING - Unauthorized access attempt to employee dashboard
+2024-06-04 18:15:23,569 - test_logger - INFO - All items accessed
+2024-06-04 18:15:24,674 - test_logger - INFO - Home page accessed
+2024-06-04 18:15:25,565 - test_logger - INFO - All items accessed
+2024-06-04 18:15:26,914 - test_logger - INFO - Admin logged in: admin@nucleusteq.com
+2024-06-04 18:15:27,974 - test_logger - INFO - Employee logged in: test@nucleusteq.com
+2024-06-04 18:15:28,628 - test_logger - WARNING - Login failed: Invalid email or password for email john@example.com
+2024-06-04 18:15:29,253 - test_logger - WARNING - Login failed: Email and password are required
+2024-06-04 18:15:29,256 - test_logger - WARNING - Login failed: Invalid email or password for email 
+2024-06-04 18:15:30,156 - test_logger - INFO - Employee logged in: test@nucleusteq.com
+2024-06-04 18:15:30,830 - test_logger - INFO - Profile accessed by user: test@nucleusteq.com
+2024-06-04 18:15:31,473 - test_logger - WARNING - Unauthorized access attempt to profile
+2024-06-04 18:15:32,150 - test_logger - WARNING - User not found: 999
+2024-06-04 18:15:33,071 - test_logger - WARNING - Registration failed: Email already exists
+2024-06-04 18:15:33,703 - test_logger - WARNING - Registration failed: Invalid email address
+2024-06-04 18:15:34,360 - test_logger - WARNING - Registration failed: All fields are required
+2024-06-04 18:15:36,778 - test_logger - WARNING - Password must be at least 6 characters long: Password must be at least 6 characters long
+2024-06-04 18:15:44,066 - test_logger - INFO - User registered successfully: newuser@nucleusteq.com
+2024-06-04 18:15:45,188 - test_logger - INFO - All items accessed
+2024-06-04 18:15:46,094 - test_logger - INFO - Item added successfully: Laptop
+2024-06-04 18:15:46,103 - test_logger - INFO - All items accessed
+2024-06-04 18:15:47,032 - test_logger - INFO - Item unassigned successfully: 1
+2024-06-04 18:15:47,039 - test_logger - INFO - All items accessed
+2024-06-04 18:15:48,609 - test_logger - INFO - User added successfully: john@nucleusteq.com
+2024-06-04 18:15:48,624 - test_logger - INFO - All users accessed by admin
+2024-06-04 18:15:49,806 - test_logger - INFO - User deleted successfully: test3@nucleusteq.com
+2024-06-04 18:15:50,780 - test_logger - WARNING - Unauthorized access attempt to add item
+2024-06-04 18:15:51,693 - test_logger - WARNING - Unauthorized access attempt to all items

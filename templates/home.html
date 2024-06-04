@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Application{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        
+         
+        .flash-message {
+            padding: 10px;
+            background-color: #f0ad4e;
+            color: white;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    
+        .navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a i {
+    margin-right: 8px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/"><i class="fas fa-home"></i>Home</a>
+        <a href="{{ url_for('auth_bp.login') }}"><i class="fas fa-sign-in"></i>login</a>
+        <a href="{{ url_for('auth_bp.register') }}"><i class="fas fa-user-plus"></i>Register</a>
+    </div>
+    
+     
+    
+    <div >
+        {% block content %}
+        <div class="home-container">
+            <h1>Welcome To The Inventory Management System  </h1>
+        </div>
+        {% endblock %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigned Items</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+             
+            margin: 0;
+            padding: 0;
+        }
+        .items-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            width: 600px;
+        }
+        .items-container h2 {
+            margin-top: 0;
+        }
+        .item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    {% extends "employee_base.html" %}
+        {% block content %}
+    <div class="items-container">
+        <h2>Assigned Items for {{ user.first_name }} {{ user.last_name }}</h2>
+        {% for item in items %}
+            <div class="item">
+                <p><strong>Name:</strong> {{ item.name }}</p>
+                <p><strong>Serial Number:</strong> {{ item.serial_number }}</p>
+                <p><strong>Bill Number:</strong> {{ item.bill_number }}</p>
+                <p><strong>Date of Purchase:</strong> {{ item.date_of_purchase }}</p>
+                <p><strong>Warranty:</strong> {{ item.warranty }}</p>
+            </div>
+        {% else %}
+            <p>No items assigned.</p>
+        {% endfor %}
+    </div>
+    {% endblock %}   
+</body>
+</html>

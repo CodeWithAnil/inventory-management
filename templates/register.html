@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    {% extends "home.html" %}
+    {% block content %}
+    <div class="container">
+        <h1>Register</h1>
+        
+        <div class="msg">{{ message }}</div>
+        <form class="form" action="/register" method="post">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+            
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <!-- <label for="role">Role</label>
+            <select id="role" name="role" required>
+                <option value="employee">Employee</option>
+                <option value="admin">Admin</option>
+            </select> -->
+            <input type="hidden" id="role" name="role" value="Employee">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    {% endblock %}
+</body>
+</html>

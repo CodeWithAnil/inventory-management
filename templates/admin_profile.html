@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+             padding: 0;
+            margin: 0;
+        }
+        .profile-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .profile-container h2 {
+            margin-top: 0;
+        }
+        .profile-container p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block content %}
+    <div class="profile-container">
+        <h2>User Profile</h2>
+        <p><strong>Name:</strong> {{ user.first_name }} {{ user.last_name }}</p>
+        <p><strong>Date of Birth:</strong> {{ user.dob }}</p>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Mobile Number:</strong> {{ user.mobile }}</p>
+    </div>
+    {% endblock %}  
+</body>
+</html>
